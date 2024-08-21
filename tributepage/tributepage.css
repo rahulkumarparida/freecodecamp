@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(255, 255, 255);
+ 
+  height: 139rem;
+  width: 115rem;
+  display: flex;
+padding: 1.5rem 1.5rem;
+ 
+}
+#main {
+  background-color: rgb(233, 232, 232);
+  border-radius: 0.25rem;
+  height: 137rem;
+  width: 115rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+}
+main p {
+  font-size: 0.9rem;
+  
+}
+
+.topic {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.subtopic {
+  margin-top: -1rem;
+  font-weight: 400;
+  font-size: medium;
+}
+.img {
+  background-color: white;
+  height: 40rem;
+  width: 113rem;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center; 
+
+}
+img {
+  height: 30rem;
+  width: 45rem;
+  border: 2px solid black;
+}
+img,
+.img-caption > p {
+
+    font-size: 1.1rem;
+  padding: 1rem 4rem;
+}
+
+.tributehead {
+  font-size: large;
+  font-weight: 600;
+}
+ul {
+  height: 65rem;
+  margin: 0px 0px;
+  
+  
+  
+}
+li {
+  text-align: left;
+  padding: 2px 2px ;
+  
+}
+.tribute-info {
+  background-color: rgb(233, 231, 231);
+  height: 70rem;
+  width: 30rem;
+  display: flex;
+  
+}
+i{
+    margin-top: 2rem;
+}
+.author{
+    margin-top: 0;
+    margin-left: 5rem;
+    padding: 8px 8px;
+}
+.foot{
+    font-size: 1.5rem;
+    font-weight: 600;
+   
+}

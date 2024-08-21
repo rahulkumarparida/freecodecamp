@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+   
+    width: 100%;
+    background:linear-gradient(
+        black,grey
+    );
+   
+    padding: 1em;
+    text-align: center;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #navbar li {
+    margin-right: 20px;
+  }
+  
+  #navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:linear-gradient(
+        90deg,
+        white,purple
+    );
+    padding: 1em;
+
+  }
+  
+  #welcome-section h1 {
+   
+    font-size: 36px;
+    margin-bottom: 10px;
+    
+  }
+  #welcome-section p{
+    font-size: 20px;
+  }
+  #projects {
+    padding: 2em;
+    background: linear-gradient(45deg,white,
+    rgb(88, 3, 88));
+    
+  }
+  
+  .project-tile {
+    background:linear-gradient(90deg,
+    
+    white , black 
+    );
+    padding: 1em;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .project-tile h3 {
+    margin-top: 0;
+  }
+  
+  .project-tile a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  .social{
+    height: 20rem;
+    width: 119rem;
+    
+    background: linear-gradient(purple,pink
+    );
+  }
+  .sociall{
+    
+padding: 5rem 54rem;
+  }
+  .sociall a{
+    font-size: 6rem;
+    color: black;
+    padding: 2rem;
+    transition: all ease 1s;
+  }
+  .sociall a:hover{
+    scale: 1.2;
+  }
+  @media (max-width: 768px) {
+    #welcome-section {
+      height: auto;
+      padding: 1em;
+    }
+    #navbar {
+      position: relative;
+    }
+  }
